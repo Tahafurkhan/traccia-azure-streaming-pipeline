@@ -1,0 +1,6 @@
+{
+	"name": "onpremtahaintegrationRuntime",
+	"properties": {
+		"type": "SelfHosted"
+	}
+}

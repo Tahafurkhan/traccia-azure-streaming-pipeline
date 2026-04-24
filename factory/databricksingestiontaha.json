@@ -1,0 +1,15 @@
+{
+	"name": "databricksingestiontaha",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Enabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "b0a02b1b-3907-4eba-8217-60babb8eda87",
+		"tenantId": "978826f8-d567-46e2-be79-2116f2b5c517"
+	}
+}

@@ -1,0 +1,17 @@
+{
+	"name": "OnpremtahaFileServer",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "FileServer",
+		"typeProperties": {
+			"host": "C:\\Tahaffiles",
+			"userId": "tahafurkhan@gmail.com",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI4NDU0OTc5ZS05MzM0LTRkYmItYjdkYS1mYzQwMWYxMzVlZGMiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "onpremtahaintegrationRuntime",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
